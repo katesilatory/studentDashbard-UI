@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343A40;
+    height: 10px;
+}
+
+.primary {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 0px;
+    background-color: #343A40;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    border: 1px solid #343A40;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+.primary:hover {
+    color: #d3d3d3;
+}
+
+img {
+    height: 50px;
+}
+
+a {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
